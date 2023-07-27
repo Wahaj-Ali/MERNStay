@@ -3,6 +3,7 @@ import './Navbar.css';
 import Button from '@mui/material/Button';
 import { Typography } from '@mui/material';
 
+
 const styles = {
   button: {
     color: '#003580',
@@ -18,18 +19,31 @@ const styles = {
 };
 
 export const Navbar = () => {
-  
+
   return (
     <div className='navbar'>
       <div className="navContainer">
         {/* <span className="logo">MERNStay</span> */}
-        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block", fontWeight:'500' } }}>MERNStay</Typography>
+        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block", fontWeight:'500' }}}>MERNStay</Typography>
         <div className="navItems">
-          <Button variant="outlined" sx={styles.button}>Register</Button>
-          <Button variant="outlined" sx={styles.button}>Sign In</Button>
+          <Button variant="outlined" size="small" sx={styles.button}>Register</Button>
+          <Button variant="outlined" size="small" sx={styles.button}>Sign In</Button>
         </div>
       </div>
     </div>
+
+    //Material UI
+
+    // <AppBar position="static">
+    //   <Toolbar >
+    //     <IconButton edge="start" color="inherit" aria-label="menu" sx={{ display: { sm: "none", xs: "block" } }}>
+    //       <MenuIcon />
+    //     </IconButton>
+    //     <Typography variant="h6" sx={{ flexGrow: 1 }}>
+    //       MERNStay
+    //     </Typography>
+    //   </Toolbar>
+    //   </AppBar>
   )
 }
 
