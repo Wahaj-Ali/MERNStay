@@ -36,10 +36,18 @@
 
 .hero-desc {
   position: absolute;
-  top: 35%;
+  top: 20%;
+  padding: 0 200px;
+  width: 50%;
 }
 
 #hero-img {
   width: 100dvw;
   height: 50dvh;
+  opacity: 0.6;
+}
+
+.headerTitle {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
 }
