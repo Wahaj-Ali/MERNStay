@@ -31,7 +31,7 @@
 }
 
 .hero {
-  background: linear-gradient(90deg,#000 0,transparent 11.5%),linear-gradient(270deg,#000 0,transparent 11.5%);
+  background: linear-gradient(90deg,#000 0,transparent 11.5%),linear-gradient(270deg,#000 0,#6e3c3c 11.5%);
 }
 
 .hero-desc {
