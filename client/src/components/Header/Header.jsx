@@ -4,6 +4,7 @@ import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import LocalTaxiIcon from '@mui/icons-material/LocalTaxi';
 import { Button, Typography } from '@mui/material';
+import herobg from '../../assets/herobg.jpg';
 import './header.css';
 
 export const Header = () => {
@@ -24,10 +25,13 @@ export const Header = () => {
             <Typography sx={{ display: 'flex', gap: '10px' }}><LocalTaxiIcon />Airport Taxis</Typography>
           </div>
         </div>
-        {/* <div className="hero">
+      </div>
+      <div className="hero">
+        <img id='hero-img' src={herobg} alt='hero-background'/>
+        <div className="hero-desc">
           <h1 className="headerTitle">Homebound Wanderlust: Embrace the Journey.</h1>
           <Typography variant="body1" sx={{ display: 'flex', margin: '20px 0' }}>Where Joyful Homecomings Meet Thrilling Travels. Discover, Book, and Embrace Unforgettable Adventures.</Typography>
-        </div> */}
+        </div>
       </div>
     </div>
   )
