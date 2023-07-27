@@ -31,6 +31,7 @@ export const Header = () => {
         <div className="hero-desc">
           <h1 className="headerTitle">Homebound Wanderlust: Embrace the Journey.</h1>
           <Typography variant="h6" sx={{ display: 'flex', margin: '20px 0', fontWeight:600, fontFamily:'"Avenir Next",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;' }}>Where Joyful Homecomings Meet Thrilling Travels. Discover, Book, and Embrace Unforgettable Adventures.</Typography>
+          <Button variant="contained" size='large'>Find your rental</Button>
         </div>
       </div>
     </div>
