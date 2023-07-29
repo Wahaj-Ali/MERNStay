@@ -24,7 +24,7 @@ export const Navbar = () => {
     <div className='navbar'>
       <div className="navContainer">
         {/* <span className="logo">MERNStay</span> */}
-        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block", fontWeight:'500' }}}>MERNStay</Typography>
+        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block", fontWeight:'500', fontFamily: 'BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif' }}}>MERNStay</Typography>
         <div className="navItems">
           <Button variant="outlined" size="small" sx={styles.button}>Register</Button>
           <Button variant="outlined" size="small" sx={styles.button}>Sign In</Button>
