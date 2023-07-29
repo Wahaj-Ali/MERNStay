@@ -6,9 +6,11 @@ import LocalTaxiIcon from '@mui/icons-material/LocalTaxi';
 import { Button, Typography } from '@mui/material';
 import herobg from '../../assets/herobg.jpg';
 import './header.css';
+import { HeroSearch } from '../Hero Search/HeroSearch';
 
 export const Header = () => {
   return (
+    <>
     <div className='header'>
       <div className="headerContainer">
         <div className="headerList">
@@ -35,5 +37,7 @@ export const Header = () => {
         </div>
       </div>
     </div>
+    <HeroSearch />
+    </>
   )
 }
