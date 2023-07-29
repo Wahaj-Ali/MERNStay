@@ -19,7 +19,7 @@ export const HeroSearch = () => {
     }
   ]);
 
-  const [openPersonOptions, setpenPersonOptions] = useState(false);
+  const [openPersonOptions, setOpenPersonOptions] = useState(false);
   const [personOptions, setPersonOptions] = useState({
     adult: 1,
     children: 0,
@@ -55,8 +55,8 @@ export const HeroSearch = () => {
       </div>
       <div className="heroSearchItem">
         <PersonIcon />
-        <span className='headerSearchText'>{`${personOptions.adult} adults . ${personOptions.children} chidlren . ${personOptions.room} rooms`}</span>
-        <div className="options">
+        <span className='headerSearchText' onClick={() => setOpenPersonOptions(!openPersonOptions)}>{`${personOptions.adult} adults . ${personOptions.children} chidlren . ${personOptions.room} rooms`}</span>
+        {openPersonOptions && <div className="options">
           <div className="optionItem">
             <span className="optionText">Adult</span>
             <div className="optionContainer">
@@ -81,7 +81,7 @@ export const HeroSearch = () => {
               <Button variant="text" onClick={() => handleOption("room", "i")}>+</Button>
             </div>
           </div>
-        </div>
+        </div>}
       </div>
       <div className="heroSearchItem">
         <Button variant="contained">Search</Button>
