@@ -44,7 +44,7 @@ export const HeroSearch = () => {
       </div>
       <div className="heroSearchItem">
         <CalendarMonthIcon />
-        <span onClick={() => setOpenDate(!openDate)} className='headerSearchText'>{`${format(date[0].startDate, "dd/mm/yyyy")}-${format(date[0].endDate, "dd/mm/yyyy")}`}</span>
+        <span onClick={() => setOpenDate(!openDate)} className='headerSearchText'>{`${format(date[0].startDate, "E, MMM d")} - ${format(date[0].endDate, "E, MMM d")}`}</span>
         {openDate && <DateRange
           editableDateInputs={true}
           onChange={item => setDate([item.selection])}
@@ -83,8 +83,8 @@ export const HeroSearch = () => {
           </div>
         </div>}
       </div>
-      <div className="heroSearchItem">
-        <Button variant="contained">Search</Button>
+      <div className="heroSearchItem btn">
+        <Button className='srBtn' variant="contained">Search</Button>
       </div>
     </div>
   )
