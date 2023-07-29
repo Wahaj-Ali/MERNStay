@@ -7,7 +7,7 @@
   justify-content: space-around;
   padding: 10px 0;
   border-radius: 5px;
-  margin: 0 10%;
+  margin: 0 13%;
   position: relative;
   bottom: 20px;
 }
@@ -37,6 +37,7 @@
 .headerSearchInput {
   border: none;
   outline: none;
+  width: 85%;
 }
 
 .headerSearchText {
