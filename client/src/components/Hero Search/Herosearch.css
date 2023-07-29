@@ -1,0 +1,57 @@
+.heroSearch {
+  height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 0 10%;
+  position: relative;
+  bottom: 20px;
+}
+
+.heroSearchItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  /* color: lightgray; */
+  cursor: pointer;
+}
+
+.date {
+  position: fixed;
+  top: 75%;
+}
+
+.options {
+  position: absolute;
+  top: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 16px 0 rgba(26,26,26,0.24);
+  -webkit-box-shadow: 0 2px 16px 0 rgba(26,26,26,0.24);
+  padding: 20px; 
+}
+
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 10px;
+}
+
+.optionContainer {
+  border: 1px solid black;
+  border-radius: 5px;
+}
