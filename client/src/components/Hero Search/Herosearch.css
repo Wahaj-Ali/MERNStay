@@ -47,8 +47,9 @@
 }
 
 .date {
-  position: fixed;
+  position: absolute;
   top: 75%;
+  z-index: 2;
 }
 
 .options {
@@ -59,6 +60,7 @@
   box-shadow: 0 2px 16px 0 rgba(26, 26, 26, 0.24);
   -webkit-box-shadow: 0 2px 16px 0 rgba(26, 26, 26, 0.24);
   padding: 20px;
+  z-index: 2;
 }
 
 .optionItem {
