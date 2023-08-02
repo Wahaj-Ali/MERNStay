@@ -25,3 +25,7 @@
   bottom: 25px;
   left: 20px;
 }
+
+.trendingTitles h1, h2 {
+  margin: 0;
+}
