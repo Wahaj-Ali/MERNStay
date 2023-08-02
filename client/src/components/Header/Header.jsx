@@ -8,7 +8,7 @@ import herobg from '../../assets/herobg.jpg';
 import './header.css';
 import { HeroSearch } from '../Hero Search/HeroSearch';
 
-export const Header = () => {
+export const Header = ({type}) => {
   return (
     <>
     <div className='header'>
@@ -28,6 +28,8 @@ export const Header = () => {
           </div>
         </div>
       </div>
+      { type !== "list" &&
+        <>
       <div className="hero">
         <img id='hero-img' src={herobg} alt='hero-background'/>
         <div className="hero-desc">
@@ -36,8 +38,10 @@ export const Header = () => {
           <Button variant="contained" size='large'>Find your rental</Button>
         </div>
       </div>
+      </>}
     </div>
-    <HeroSearch />
+    {type !== "list" &&
+      <HeroSearch />}
     </>
   )
 }
