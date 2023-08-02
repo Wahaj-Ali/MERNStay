@@ -13,7 +13,8 @@
 }
 
 .heroSearchItem {
-  border: 3px solid #febb02;
+  /* border: 3px solid #febb02; */
+  border-right: 3px solid #febb02;
   /* padding: 11px; */
   border-radius: 5px;
   height: 100%;
@@ -22,7 +23,7 @@
   justify-content: center;
   gap: 5px;
   flex: 4;
-  height: 7dvh;
+  /* height: 7dvh; */
 }
 
 .heroSearchItem.btn {
