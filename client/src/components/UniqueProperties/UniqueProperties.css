@@ -1,0 +1,50 @@
+.uniquePropertyList {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.uniquePItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.uPImg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.uniqueName {
+  font-size: 16px;
+  margin: 0;
+}
+
+.uniqueTxt {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.uniqueRating {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.rating {
+  background-color: #003b95;
+  padding: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: 700;
+}
