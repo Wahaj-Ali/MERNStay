@@ -1,7 +1,12 @@
 .homeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.typeHeading {
+  width: 100%;
+  max-width: 1120px;
 }
