@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  width: 1120px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fLists {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.fList {
+  list-style: none;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
