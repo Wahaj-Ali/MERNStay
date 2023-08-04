@@ -47,5 +47,5 @@
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 300;
-  cursor: default;
+  cursor: default !important;
 }
