@@ -1,0 +1,51 @@
+.subDiv {
+  display: flex;
+  width: 100dvw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00224f;
+  color: #fff;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  padding: 50px 0;
+}
+
+.subTitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.subText {
+  font-size: 16px;
+  line-height: 24px;
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+.subInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+#email {
+  font-size: 20px;
+  line-height: 28px;
+  color: #6b6b6b;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 100;
+  padding: 10px;
+  align-self: center;
+  width: 20%;
+}
+
+.subBtn {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: default;
+}
