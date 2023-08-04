@@ -5,6 +5,7 @@ import { Trending } from '../components/trending/Trending';
 import '../assets/styles/Home.css';
 import { PropertyTypes } from '../components/PropertyTypes/PropertyTypes';
 import { UniqueProperties } from '../components/UniqueProperties/UniqueProperties';
+import { EmailSub } from '../components/EmailSubscription/EmailSub';
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
           <h2 className="homeText">From castles and villas to boats and igloos, we have it all</h2>
         </div>
         <UniqueProperties />
+        <EmailSub />
       </div>
     </div>
   )
