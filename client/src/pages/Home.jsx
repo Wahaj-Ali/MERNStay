@@ -6,6 +6,7 @@ import '../assets/styles/Home.css';
 import { PropertyTypes } from '../components/PropertyTypes/PropertyTypes';
 import { UniqueProperties } from '../components/UniqueProperties/UniqueProperties';
 import { EmailSub } from '../components/EmailSubscription/EmailSub';
+import { Footer } from '../components/Footer/Footer';
 
 export const Home = () => {
   return (
@@ -22,6 +23,7 @@ export const Home = () => {
         </div>
         <UniqueProperties />
         <EmailSub />
+        <Footer />
       </div>
     </div>
   )
