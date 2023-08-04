@@ -16,8 +16,18 @@
 
 .fList {
   list-style: none;
-  gap: 5px;
+  /* gap: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
   padding: 0;
+}
+
+.fLIstItem {
+  margin-bottom: 10px;
+  color: #006ce4;
+  cursor: pointer;
+}
+
+.fLIstItem:hover {
+  color: #bc5b01;
 }
