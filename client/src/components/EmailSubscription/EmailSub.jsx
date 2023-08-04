@@ -5,8 +5,8 @@ import './EmailSub.css';
 export const EmailSub = () => {
   return (
     <div className="subDiv">
-      <h1 className="subTitle">Save time, save money!</h1>
-      <p className="subText">Sign up and we'll send the best deals to you</p>
+      <h1 className="subTitle">Conserve time, reduce expenses!</h1>
+      <p className="subText">Subscribe to receive top-notch deals delivered to your inbox!</p>
       <div className="subInput">
         <input type="email" id="email" name="email" placeholder='Your email address' required/>
         <Button className='subBtn' variant="contained">Subscribe</Button>
