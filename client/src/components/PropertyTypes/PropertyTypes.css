@@ -1,0 +1,32 @@
+.PropertyType {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pTypeItem {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pTypeImg {
+  width: 100%;
+  /* width: 200px; */
+  height: 150px;
+  object-fit: cover;
+}
+
+.pTypeTitles h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.pTypeTitles h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+}

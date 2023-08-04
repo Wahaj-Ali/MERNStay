@@ -1,0 +1,27 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeHeading, .homeText {
+  margin: 0;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.uniquePDesc {
+  width: 100%;
+  max-width: 1120px;
+}
+
+.homeHeading {
+  font-size: 24px;
+}
+
+.homeText {
+  font-size: 16px;
+  font-weight: 300;
+}

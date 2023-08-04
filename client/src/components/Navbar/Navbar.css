@@ -1,0 +1,15 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #003580;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1120px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
