@@ -1,6 +1,6 @@
 .subDiv {
   display: flex;
-  width: 100dvw;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
